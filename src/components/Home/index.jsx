@@ -317,7 +317,7 @@ const Home = () => {
 
                 </div>
 
-                <div class="credit"> created by <span>Pico Zen</span> SLIIT 3Y2S Project | all rights reserved </div>
+                <div class="credit"> created by <span>'Pico Zen'</span> SLIIT 3Y2S Project | all rights reserved </div>
 
             </section>
 
