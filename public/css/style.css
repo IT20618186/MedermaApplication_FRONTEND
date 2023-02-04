@@ -256,6 +256,12 @@ section:nth-child(even){
     line-height: 1.8;
 }
 
+
+/* .doctors{
+    padding-top: 10rem;
+} */
+
+
 .doctors .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -512,7 +518,7 @@ section:nth-child(even){
     padding-top: 2rem;
     margin-top: 2rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color:var(--light-color);
     border-top: .1rem solid rgba(0, 0, 0, .1);
 }

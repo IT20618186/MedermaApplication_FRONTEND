@@ -7,16 +7,16 @@ const Home = () => {
 
             <header className="header">
 
-                <a href="#" className="logo"> <i class="fas fa-heartbeat"></i> Mederma </a>
+                <a href="/home" className="logo"> <i class="fas fa-heartbeat"></i> Mederma </a>
 
                 <nav className="navbar">
-                    <a href="#home">home</a>
-                    <a href="#services">services</a>
-                    <a href="#about">about</a>
-                    <a href="#doctors">doctors</a>
-                    <a href="#book">book</a>
-                    <a href="#review">review</a>
-                    <a href="#blogs">blogs</a>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#about">About</a>
+                    {/* <a href="#doctors">doctors</a> */}
+                    <a href="#review">Review</a>
+                    <a href="/appointment">Appointment</a>
+                    {/* <a href="#blogs">blogs</a> */}
                 </nav>
 
                 <div id="menu-btn" class="fas fa-bars"></div>
@@ -24,6 +24,12 @@ const Home = () => {
             </header>
 
             {/* header section ends  */}
+
+            {/* carousel section starts */}
+
+            <div class="carousel"></div>
+            
+            {/* carousel section ends */}
 
             {/* <!-- home section starts  --> */}
 
@@ -155,119 +161,6 @@ const Home = () => {
             </section>
 
             {/* <!-- about section ends --> */}
-
-            {/* <!-- doctors section starts  --> */}
-
-            <section class="doctors" id="doctors">
-
-                <h1 class="heading"> our <span>doctors</span> </h1>
-
-                <div class="box-container">
-
-                    <div class="box">
-                        <img src="image/doc-1.jpg" alt="" />
-                        <h3>john deo</h3>
-                        <span>expert doctor</span>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <img src="image/doc-2.jpg" alt="" />
-                        <h3>john deo</h3>
-                        <span>expert doctor</span>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <img src="image/doc-3.jpg" alt="" />
-                        <h3>john deo</h3>
-                        <span>expert doctor</span>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <img src="image/doc-4.jpg" alt="" />
-                        <h3>john deo</h3>
-                        <span>expert doctor</span>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <img src="image/doc-5.jpg" alt="" />
-                        <h3>john deo</h3>
-                        <span>expert doctor</span>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <img src="image/doc-6.jpg" alt="" />
-                        <h3>john deo</h3>
-                        <span>expert doctor</span>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-
-            {/* <!-- doctors section ends --> */}
-
-            {/* <!-- booking section starts   --> */}
-
-            <section class="book" id="book">
-
-                <h1 class="heading"> <span>book</span> now </h1>
-
-                <div class="row">
-
-                    <div class="image">
-                        <img src="image/book-img.svg" alt="" />
-                    </div>
-
-                    <form action="">
-                        <h3>book appointment</h3>
-                        <input type="text" placeholder="your name" class="box" />
-                        <input type="number" placeholder="your number" class="box" />
-                        <input type="email" placeholder="your email" class="box" />
-                        <input type="date" class="box" />
-                        <input type="submit" value="book now" class="btn" />
-                    </form>
-
-                </div>
-
-            </section>
-
-            {/* <!-- booking section ends --> */}
 
             {/* <!-- review section starts  --> */}
 
@@ -420,15 +313,12 @@ const Home = () => {
                         <h3>follow us</h3>
                         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
                         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-                        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
                         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-                        <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
                     </div>
 
                 </div>
 
-                <div class="credit"> created by <span>Pico Zen</span> | all rights reserved </div>
+                <div class="credit"> created by <span>Pico Zen</span> SLIIT 3Y2S Project | all rights reserved </div>
 
             </section>
 
