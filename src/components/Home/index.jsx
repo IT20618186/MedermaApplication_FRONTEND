@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
 
                 <div class="content">
-                    <h3>stay safe, stay healthy</h3>
+                    <h3>Stay Safe, Stay Healthy</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed autem vero? Magnam, est laboriosam!</p>
                     <a href="#footer" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
                 </div>
@@ -67,7 +67,7 @@ const Home = () => {
 
                 <div class="icons">
                     <i class="fas fa-procedures"></i>
-                    <h3>500+</h3>
+                    <h3>100+</h3>
                     <p>bed facility</p>
                 </div>
 
@@ -92,42 +92,42 @@ const Home = () => {
                     <div class="box">
                         <i class="fas fa-notes-medical"></i>
                         <h3>free checkups</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                        <p>The majority of NHS Health Checks are done in GP surgeries and local pharmacies.</p>
                         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
                     </div>
 
                     <div class="box">
                         <i class="fas fa-ambulance"></i>
                         <h3>24/7 ambulance</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                        <p>Our Ambulances are Fitted with State-of-the-art Medical Equipment. Book an Ambulance Now. We are Open 24/7.</p>
                         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
                     </div>
 
                     <div class="box">
                         <i class="fas fa-user-md"></i>
                         <h3>expert doctors</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                        <p>Allergists. An allergist or immunologist focuses on preventing and treating allergic diseases and conditions.</p>
                         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
                     </div>
 
                     <div class="box">
                         <i class="fas fa-pills"></i>
                         <h3>medicines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                        <p>Facilities will include secured drug storage, refrigerated drug storage, space for medication trolleys and computer access for pharmacy personnel.</p>
                         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
                     </div>
 
                     <div class="box">
                         <i class="fas fa-procedures"></i>
                         <h3>bed facility</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                        <p>A hospital bed or hospital cot is a bed specially designed for hospitalized patients or others in need of some form of health care.</p>
                         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
                     </div>
 
                     <div class="box">
                         <i class="fas fa-heartbeat"></i>
                         <h3>total care</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+                        <p>Total Care recognizes doctors that focus on health care instead of sick care.</p>
                         <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
                     </div>
 
@@ -282,13 +282,12 @@ const Home = () => {
 
                     <div class="box">
                         <h3>quick links</h3>
-                        <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
-                        <a href="#"> <i class="fas fa-chevron-right"></i> services </a>
-                        <a href="#"> <i class="fas fa-chevron-right"></i> about </a>
-                        <a href="#"> <i class="fas fa-chevron-right"></i> doctors </a>
-                        <a href="#"> <i class="fas fa-chevron-right"></i> book </a>
-                        <a href="#"> <i class="fas fa-chevron-right"></i> review </a>
-                        <a href="#"> <i class="fas fa-chevron-right"></i> blogs </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Home </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Services </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> About </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Review </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Appointment </a>
+                        {/* <a href="#"> <i class="fas fa-chevron-right"></i> Blogs </a> */}
                     </div>
 
                     <div class="box">
